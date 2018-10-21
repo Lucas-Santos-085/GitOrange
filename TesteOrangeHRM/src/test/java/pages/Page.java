@@ -8,7 +8,7 @@ import suporte.BaseTest;
 public class Page extends BaseTest {
 	
 
-	/*************Incluir Funcion·rios******************/
+	/*************Incluir Funcion√°rios****************/
 	
 	
 	public void clicarMenu() {
