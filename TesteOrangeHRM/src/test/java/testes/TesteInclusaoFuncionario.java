@@ -24,7 +24,7 @@ public class TesteInclusaoFuncionario extends BaseTest {
 
 		page.clicarMenuPIM();
 		page.clicarAdicionarFuncionario();
-		page.inserirPrimeiroNome("Git3");
+		page.inserirPrimeiroNome("Git5");
 		page.salvarCadastroFuncionario();
 
 		assertEquals("Required", page.conferirMensagemErro());
@@ -39,7 +39,7 @@ public class TesteInclusaoFuncionario extends BaseTest {
 
 		page.clicarMenuPIM();
 		page.clicarAdicionarFuncionario();
-		page.inserirPrimeiroNome("Git4");
+		page.inserirPrimeiroNome("Git6");
 		page.inserirUltimoNome("Teste");
 		page.salvarCadastroFuncionario();
 
